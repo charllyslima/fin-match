@@ -36,7 +36,7 @@
                     </button>
                     <div class="collapse navbar-collapse p-5" id="navbarNav">
                         <ul class="navbar-nav row w-100">
-                            <li class="nav-item h4 col-md-3 text-center active">
+                            <li class="nav-item h4 col-md-3 text-center">
                                 <a class="nav-link" aria-current="page" href="#">Como Funciona</a>
                             </li>
                             <li class="nav-item h4 col-md-3 text-center">
@@ -52,14 +52,34 @@
                     </div>
                 </div>
             </nav>
-            <div class="containe-fluid px-5">
-                <div class="row">
-                    <div class="col-8">
-                        <strong class="display-2" style="font-weight: 600">Crédito para você ou seu negócio!</strong>
+            <div class="container-fluid px-5">
+                <div class="row justify-content-evenly" style="height: 75vh">
+                    <div class="col-md-3 container-slogan">
+                        <strong class="slogan">Crédito para você ou seu negócio!</strong>
                     </div>
-                    <div class="col-4 d-flex d-flex flex-row-reverse align-items-end">
-                        <div class="card">
-                            <div class="card-body bg-white">teste</div>
+                    <div class="col-md-4 offset-md-5 d-flex align-items-end">
+                        <div class="card" id="emprestimo">
+                            <form action="" class="text-center">
+                                <h3 class="upper-case">SIMULE AGORA PARA VOCÊ OU SEU NEGÓGIO</h3>
+                                <h5>De quanto você precisa?</h5>
+
+                                <h2 id="valor-emprestimo">R$ 500,00</h2>
+
+                                <input type="range" max="50000" min="500" step="1" class="form-control" name="" />
+
+                                <p class="mt-4">
+                                    Prossiga com a solicitação para saber mais sobre as parcelas e condições especíais.
+                                </p>
+                                <div class="">
+                                    <button
+                                        class="btn btn-warning text-uppercase text-white"
+                                        type="button"
+                                        type="button"
+                                    >
+                                        Solicitar Agora
+                                    </button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
