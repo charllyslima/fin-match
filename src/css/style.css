@@ -7,7 +7,6 @@ header {
     color: white;
     min-height: 100vh;
     background-image: url("../img/img-fundo.png");
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
