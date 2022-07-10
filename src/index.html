@@ -19,42 +19,31 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <div class="container-fluid">
-                    <img src="img/logo.svg" alt="Logomarca" class="img-responsive mr-5" width="300px" height="50px" />
-
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav"
-                        aria-controls="navbarNav"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse p-5" id="navbarNav">
-                        <ul class="navbar-nav row w-100">
-                            <li class="nav-item h4 col-md-3 text-center">
-                                <a class="nav-link" aria-current="page" href="#">Como Funciona</a>
-                            </li>
-                            <li class="nav-item h4 col-md-3 text-center">
-                                <a class="nav-link" href="#">Clientes e Parceiros</a>
-                            </li>
-                            <li class="nav-item h4 col-md-3 text-center">
-                                <a class="nav-link" href="#">Mídia</a>
-                            </li>
-                            <li class="nav-item h4 col-md-3 text-center">
-                                <a class="nav-link" href="#">Contato</a>
-                            </li>
-                        </ul>
-                    </div>
+            <nav class="navbar navbar-dark navbar-expand-md bg-faded justify-content-center pt-5">
+                <img src="img/logo.svg" alt="Logomarca" class="img-responsive ml-5" width="300px" height="50px" />
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+                    <ul class="navbar-nav row w-100">
+                        <li class="nav-item h4 col-md-3 text-center">
+                            <a class="nav-link" aria-current="page" href="#">Como Funciona</a>
+                        </li>
+                        <li class="nav-item h4 col-md-3 text-center">
+                            <a class="nav-link" href="#">Clientes e Parceiros</a>
+                        </li>
+                        <li class="nav-item h4 col-md-3 text-center">
+                            <a class="nav-link" href="#">Mídia</a>
+                        </li>
+                        <li class="nav-item h4 col-md-3 text-center">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
             <div class="container-fluid px-5">
-                <div class="row" style="height: 75vh">
-                    <div class="col-md-3 ml-5  container-slogan">
+                <div class="row mt-5" style="height: 75vh">
+                    <div class="col-md-3 m-5 container-slogan">
                         <strong class="slogan">Crédito para você ou seu negócio!</strong>
                     </div>
                     <div class="col-md-3 offset-md-6 d-flex align-items-end">
@@ -94,7 +83,317 @@
                 </div>
             </div>
         </header>
-        <main></main>
+        <main>
+            <section>
+                <div class="d-flex align-items-center h-100">
+                    <div class="container-fluid">
+                        <div class="row mb-5">
+                            <div class="col-12">
+                                <h1 class="text-center">Depoimentos dos nossos clientes</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div id="carouselDepoimentos" class="carousel slide w-100 mx-5" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselDepoimentos" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselDepoimentos" data-slide-to="1"></li>
+                                    <li data-target="#carouselDepoimentos" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="card">
+                                                    <div class="card-body text-dark text-center">
+                                                        <p>
+                                                            <img
+                                                                src="img/pessoa.jpg"
+                                                                alt=""
+                                                                class="rounded-circle"
+                                                                width="100px"
+                                                                height="100px"
+                                                            />
+                                                        </p>
+                                                        <p><strong>Amari cantu</strong></p>
+                                                        <p><span>@AmariCantu</span></p>
+                                                        <p>
+                                                            Atendimento excelente! Super recomendo, todas as vezes que
+                                                            preciso, estão prontos para me ajudar. Nota 10!!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card">
+                                                    <div class="card-body text-dark text-center">
+                                                        <p>
+                                                            <img
+                                                                src="img/pessoa.jpg"
+                                                                alt=""
+                                                                class="rounded-circle"
+                                                                width="100px"
+                                                                height="100px"
+                                                            />
+                                                        </p>
+                                                        <p><strong>Amari cantu</strong></p>
+                                                        <p><span>@AmariCantu</span></p>
+                                                        <p>
+                                                            Atendimento excelente! Super recomendo, todas as vezes que
+                                                            preciso, estão prontos para me ajudar. Nota 10!!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card">
+                                                    <div class="card-body text-dark text-center">
+                                                        <p>
+                                                            <img
+                                                                src="img/pessoa.jpg"
+                                                                alt=""
+                                                                class="rounded-circle"
+                                                                width="100px"
+                                                                height="100px"
+                                                            />
+                                                        </p>
+                                                        <p><strong>Amari cantu</strong></p>
+                                                        <p><span>@AmariCantu</span></p>
+                                                        <p>
+                                                            Atendimento excelente! Super recomendo, todas as vezes que
+                                                            preciso, estão prontos para me ajudar. Nota 10!!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card">
+                                                    <div class="card-body text-dark text-center">
+                                                        <p>
+                                                            <img
+                                                                src="img/pessoa.jpg"
+                                                                alt=""
+                                                                class="rounded-circle"
+                                                                width="100px"
+                                                                height="100px"
+                                                            />
+                                                        </p>
+                                                        <p><strong>Amari cantu</strong></p>
+                                                        <p><span>@AmariCantu</span></p>
+                                                        <p>
+                                                            Atendimento excelente! Super recomendo, todas as vezes que
+                                                            preciso, estão prontos para me ajudar. Nota 10!!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- <img class="d-block w-100" src="img/pessoa.jpg" alt="First slide" /> -->
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="card">
+                                                    <div class="card-body text-dark text-center">
+                                                        <p>
+                                                            <img
+                                                                src="img/pessoa.jpg"
+                                                                alt=""
+                                                                class="rounded-circle"
+                                                                width="100px"
+                                                                height="100px"
+                                                            />
+                                                        </p>
+                                                        <p><strong>Amari cantu</strong></p>
+                                                        <p><span>@AmariCantu</span></p>
+                                                        <p>
+                                                            Atendimento excelente! Super recomendo, todas as vezes que
+                                                            preciso, estão prontos para me ajudar. Nota 10!!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card">
+                                                    <div class="card-body text-dark text-center">
+                                                        <p>
+                                                            <img
+                                                                src="img/pessoa.jpg"
+                                                                alt=""
+                                                                class="rounded-circle"
+                                                                width="100px"
+                                                                height="100px"
+                                                            />
+                                                        </p>
+                                                        <p><strong>Amari cantu</strong></p>
+                                                        <p><span>@AmariCantu</span></p>
+                                                        <p>
+                                                            Atendimento excelente! Super recomendo, todas as vezes que
+                                                            preciso, estão prontos para me ajudar. Nota 10!!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card">
+                                                    <div class="card-body text-dark text-center">
+                                                        <p>
+                                                            <img
+                                                                src="img/pessoa.jpg"
+                                                                alt=""
+                                                                class="rounded-circle"
+                                                                width="100px"
+                                                                height="100px"
+                                                            />
+                                                        </p>
+                                                        <p><strong>Amari cantu</strong></p>
+                                                        <p><span>@AmariCantu</span></p>
+                                                        <p>
+                                                            Atendimento excelente! Super recomendo, todas as vezes que
+                                                            preciso, estão prontos para me ajudar. Nota 10!!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card">
+                                                    <div class="card-body text-dark text-center">
+                                                        <p>
+                                                            <img
+                                                                src="img/pessoa.jpg"
+                                                                alt=""
+                                                                class="rounded-circle"
+                                                                width="100px"
+                                                                height="100px"
+                                                            />
+                                                        </p>
+                                                        <p><strong>Amari cantu</strong></p>
+                                                        <p><span>@AmariCantu</span></p>
+                                                        <p>
+                                                            Atendimento excelente! Super recomendo, todas as vezes que
+                                                            preciso, estão prontos para me ajudar. Nota 10!!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- <img class="d-block w-100" src="img/pessoa.jpg" alt="First slide" /> -->
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="card">
+                                                    <div class="card-body text-dark text-center">
+                                                        <p>
+                                                            <img
+                                                                src="img/pessoa.jpg"
+                                                                alt=""
+                                                                class="rounded-circle"
+                                                                width="100px"
+                                                                height="100px"
+                                                            />
+                                                        </p>
+                                                        <p><strong>Amari cantu</strong></p>
+                                                        <p><span>@AmariCantu</span></p>
+                                                        <p>
+                                                            Atendimento excelente! Super recomendo, todas as vezes que
+                                                            preciso, estão prontos para me ajudar. Nota 10!!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card">
+                                                    <div class="card-body text-dark text-center">
+                                                        <p>
+                                                            <img
+                                                                src="img/pessoa.jpg"
+                                                                alt=""
+                                                                class="rounded-circle"
+                                                                width="100px"
+                                                                height="100px"
+                                                            />
+                                                        </p>
+                                                        <p><strong>Amari cantu</strong></p>
+                                                        <p><span>@AmariCantu</span></p>
+                                                        <p>
+                                                            Atendimento excelente! Super recomendo, todas as vezes que
+                                                            preciso, estão prontos para me ajudar. Nota 10!!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card">
+                                                    <div class="card-body text-dark text-center">
+                                                        <p>
+                                                            <img
+                                                                src="img/pessoa.jpg"
+                                                                alt=""
+                                                                class="rounded-circle"
+                                                                width="100px"
+                                                                height="100px"
+                                                            />
+                                                        </p>
+                                                        <p><strong>Amari cantu</strong></p>
+                                                        <p><span>@AmariCantu</span></p>
+                                                        <p>
+                                                            Atendimento excelente! Super recomendo, todas as vezes que
+                                                            preciso, estão prontos para me ajudar. Nota 10!!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card">
+                                                    <div class="card-body text-dark text-center">
+                                                        <p>
+                                                            <img
+                                                                src="img/pessoa.jpg"
+                                                                alt=""
+                                                                class="rounded-circle"
+                                                                width="100px"
+                                                                height="100px"
+                                                            />
+                                                        </p>
+                                                        <p><strong>Amari cantu</strong></p>
+                                                        <p><span>@AmariCantu</span></p>
+                                                        <p>
+                                                            Atendimento excelente! Super recomendo, todas as vezes que
+                                                            preciso, estão prontos para me ajudar. Nota 10!!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- <img class="d-block w-100" src="img/pessoa.jpg" alt="First slide" /> -->
+                                    </div>
+                                </div>
+                                <a
+                                    class="carousel-control-prev"
+                                    href="#carouselDepoimentos"
+                                    role="button"
+                                    data-slide="prev"
+                                    style="background-color: blue"
+                                >
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a
+                                    class="carousel-control-next"
+                                    href="#carouselDepoimentos"
+                                    role="button"
+                                    data-slide="next"
+                                    style="background-color: blue"
+                                >
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
         <footer></footer>
 
         <script
