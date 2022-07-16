@@ -1,63 +1,61 @@
 * {
     font-family: "Lato", sans-serif;
     scroll-behavior: smooth;
-    /* background-color: #7c5494; */
 }
 
 header {
     color: white;
-    /* min-height: 100vh; */
     background-image: url("../img/img-inic-pag.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+footer {
+    color: #8b8b8b;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 19px;
+}
+
 section {
-    /* min-height: 100vh; */
     color: black;
     background-color: white;
 }
 
-.nav-item {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    text-align: center;
+hr {
+    border-top: 35px solid rgba(0, 0, 0, 0.1);
 }
 
-.nav-link {
-    color: white !important;
+input[type="range"]::-webkit-slider-runnable-track {
+    background: white;
+    height: 0.2rem;
 }
 
-.nav-link:hover,
-.active {
-    color: white !important;
+/******** Firefox ********/
+input[type="range"]::-moz-range-track {
+    background: white;
+    height: 0.2rem;
 }
 
-.text-purple {
-    color: #593572;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 27.1151px;
-    line-height: 39px;
-    letter-spacing: -0.602557px;
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    margin-top: -6px;
+    background-color: white;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 1.25rem;
 }
+
+img[href*="pergunta"] {
+    cursor: pointer;
+}
+
 @media (min-width: 768px) {
     .slogan {
         font-weight: 800 !important;
         font-size: 54.067px !important;
         line-height: 65px;
     }
-}
-.slogan {
-    font-weight: 800;
-    font-size: 2em;
-}
-
-.sub-slogan {
-    font-weight: 500;
-    font-size: 23.6778px;
-    line-height: 30px;
 }
 
 #emprestimo {
@@ -81,21 +79,6 @@ section {
     border-radius: 50px;
 }
 
-.text-destaque {
-    font-weight: 800;
-    font-size: 1.5em;
-}
-
-.form-range {
-    width: 250px;
-    height: 1.5rem;
-    padding: 0;
-    background-color: transparent;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-}
-
 #observacao {
     width: 277.44px;
     height: 33px;
@@ -105,33 +88,56 @@ section {
     font-weight: 700;
     font-size: 13.5317px;
     line-height: 18px;
-    /* or 133% */
 
     text-align: center;
-
     color: #ffffff;
-
     opacity: 0.5;
 }
 
-input[type="range"]::-webkit-slider-runnable-track {
-    background: white;
-    height: 0.2rem;
+#certificado {
+    color: #f0a933;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
 }
 
-/******** Firefox ********/
-input[type="range"]::-moz-range-track {
-    background: white;
-    height: 0.2rem;
+.btn-info {
+    background: #593572;
+    border-color: #4f2f67;
 }
 
-input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none; /* Override default look */
-    margin-top: -6px; /* Centers thumb on the track */
-    background-color: white;
-    height: 1rem;
-    width: 1rem;
-    border-radius: 1.25rem;
+.btn-info:active,
+.btn-info:hover {
+    background: #7e4ea0;
+}
+
+.btn-secondary {
+    background-color: #e0e0e0;
+    border-color: #e0e0e0;
+}
+
+.btn-secondary:active,
+.btn-secondary:focus,
+.btn-secondary:hover {
+    background: #a8a8a8;
+    border-color: #e0e0e0;
+}
+
+.resposta {
+    font-weight: 400;
+}
+
+.depoimento {
+    height: 350px;
+}
+
+.display-4::after {
+    content: "\a‾‾‾‾‾";
+    color: #4f2f67;
+    white-space: pre;
+    font-weight: bold;
 }
 
 .carousel-item .card {
@@ -161,118 +167,48 @@ input[type="range"]::-webkit-slider-thumb {
     background: #f0a933;
 }
 
-/* ---- Timeline ---- */
-ol {
-    position: relative;
-    display: block;
-    margin: 100px;
-    height: 4px;
-    background: #31708f;
-}
-ol::before,
-ol::after {
-    content: "";
-    position: absolute;
-    top: -8px;
-    display: block;
-    width: 0;
-    height: 0;
-    border-radius: 10px;
-    border: 10px solid #31708f;
-}
-ol::before {
-    left: -5px;
-}
-ol::after {
-    right: -10px;
-    border-left: 10px solid #31708f;
-}
-
-/* ---- Timeline elements ---- */
-li {
-    position: relative;
-    display: inline-block;
-    float: left;
-    width: 150px;
-    font: bold 14px arial;
-    height: 50px;
-}
-li .diplome {
-    position: absolute;
-    top: -47px;
-    left: 36%;
-    color: #000000;
-}
-li .point {
-    content: "";
-    top: -4px;
-    left: 43%;
-    display: block;
-    width: 6px;
-    height: 6px;
-    border: 4px solid #31708f;
-    border-radius: 10px;
-    background: #fff;
-    position: absolute;
-}
-
-hr {
-    border-top: 35px solid rgba(0, 0, 0, 0.1);
-}
-
-.btn-info {
-    background: #593572;
-    border-color: #4f2f67;
-}
-
-.btn-info:active,
-.btn-info:hover {
-    background: #7e4ea0;
-}
-
-.btn-secondary {
-    background-color: #e0e0e0;
-    border-color: #e0e0e0;
-}
-
-.btn-secondary:active,
-.btn-secondary:focus,
-.btn-secondary:hover {
-    background: #a8a8a8;
-    border-color: #e0e0e0;
-}
-
-footer {
-    color: #8b8b8b;
-    font-style: normal;
+.text-destaque {
     font-weight: 800;
-    line-height: 19px;
+    font-size: 1.5em;
 }
 
-#certificado {
-    color: #f0a933;
-    font-family: "Poppins";
+.form-range {
+    width: 250px;
+    height: 1.5rem;
+    padding: 0;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.nav-item {
     font-style: normal;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 38px;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
 }
 
-.resposta{
-    font-weight: 400;
+.nav-link {
+    color: white !important;
 }
 
-.depoimento{
-    height: 350px;
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus,
+.active {
+    position: relative;
+    top: 1px;
+    color: white !important;
 }
 
-.display-4::after{
-    content: "\a‾‾‾‾‾";
-    color: #4F2F67;
-    white-space: pre;
-    font-weight: bold;
+.slogan {
+    font-weight: 800;
+    font-size: 2em;
 }
 
-img[href*='pergunta']{
-    cursor: pointer;
+.sub-slogan {
+    font-weight: 500;
+    font-size: 23.6778px;
+    line-height: 30px;
 }
