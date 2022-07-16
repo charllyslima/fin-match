@@ -8,6 +8,7 @@ header {
     background-image: url("../img/img-inic-pag.png");
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
 }
 
 footer {
