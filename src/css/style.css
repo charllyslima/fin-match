@@ -22,7 +22,6 @@ section {
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    line-height: 60%;
     text-align: center;
 }
 
@@ -43,21 +42,22 @@ section {
     line-height: 39px;
     letter-spacing: -0.602557px;
 }
-
+@media (min-width: 768px) {
+    .slogan {
+        font-weight: 800 !important;
+        font-size: 54.067px !important;
+        line-height: 65px;
+    }
+}
 .slogan {
     font-weight: 800;
-    font-size: 54.067px;
-    line-height: 65px;
+    font-size: 2em;
 }
 
 .sub-slogan {
     font-weight: 500;
     font-size: 23.6778px;
     line-height: 30px;
-}
-
-#container-slogan {
-    padding-right: 5rem;
 }
 
 #emprestimo {
@@ -83,8 +83,7 @@ section {
 
 .text-destaque {
     font-weight: 800;
-    font-size: 25.4597px;
-    line-height: 37px;
+    font-size: 1.5em;
 }
 
 .form-range {
