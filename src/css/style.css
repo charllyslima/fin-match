@@ -57,7 +57,12 @@ img[href*="pergunta"] {
         font-size: 54.067px !important;
         line-height: 65px;
     }
+    #content-header {
+        height: 88vh;
+    }
 }
+
+
 
 #emprestimo {
     min-height: 381px;
