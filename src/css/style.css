@@ -229,3 +229,50 @@ hr {
 .btn-info:hover {
     background: #7e4ea0;
 }
+
+.btn-secondary {
+    background-color: #e0e0e0;
+    border-color: #e0e0e0;
+}
+
+.btn-secondary:active,
+.btn-secondary:focus,
+.btn-secondary:hover {
+    background: #a8a8a8;
+    border-color: #e0e0e0;
+}
+
+footer {
+    color: #8b8b8b;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 19px;
+}
+
+#certificado {
+    color: #f0a933;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+}
+
+.resposta{
+    font-weight: 400;
+}
+
+.depoimento{
+    height: 350px;
+}
+
+.display-4::after{
+    content: "\a‾‾‾‾‾";
+    color: #4F2F67;
+    white-space: pre;
+    font-weight: bold;
+}
+
+img[href*='pergunta']{
+    cursor: pointer;
+}
