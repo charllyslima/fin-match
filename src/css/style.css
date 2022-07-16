@@ -158,11 +158,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .carouselControl:active {
-    width: 60px;
-    height: 60px;
-
     background: #f0a933;
-    border-radius: 34px;
 }
 
 /* ---- Timeline ---- */
