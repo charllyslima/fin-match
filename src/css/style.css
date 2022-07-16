@@ -50,13 +50,13 @@ input[type="range"]::-webkit-slider-thumb {
 img[href*="pergunta"] {
     cursor: pointer;
 }
-
+.slogan {
+    font-weight: 800 !important;
+    font-size: 2.5rem !important;
+    line-height: 65px;
+}
 @media (min-width: 768px) {
-    .slogan {
-        font-weight: 800 !important;
-        font-size: 54.067px !important;
-        line-height: 65px;
-    }
+    
     #content-header {
         height: 88vh;
     }
