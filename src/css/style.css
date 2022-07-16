@@ -6,14 +6,14 @@
 
 header {
     color: white;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-image: url("../img/img-inic-pag.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 section {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     color: black;
     background-color: white;
 }
@@ -214,4 +214,18 @@ li .point {
     border-radius: 10px;
     background: #fff;
     position: absolute;
+}
+
+hr {
+    border-top: 35px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn-info {
+    background: #593572;
+    border-color: #4f2f67;
+}
+
+.btn-info:active,
+.btn-info:hover {
+    background: #7e4ea0;
 }
