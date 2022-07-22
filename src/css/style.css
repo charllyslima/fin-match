@@ -65,13 +65,6 @@ img[href*="pergunta"] {
     }
 }
 
-/* @media (max-width: 600px) {
-    .depoimento img {
-        width: 70px;
-        height: 70px;
-    }
-} */
-
 #emprestimo {
     min-height: 381px;
     background-color: transparent;
