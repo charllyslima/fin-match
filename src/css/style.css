@@ -56,7 +56,7 @@ img[href*="pergunta"] {
     line-height: 65px;
 }
 .depoimento img {
-    width: 100;
+    width: 100px;
     height: 100px;
 }
 @media (min-width: 768px) {
@@ -65,12 +65,12 @@ img[href*="pergunta"] {
     }
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     .depoimento img {
         width: 70px;
         height: 70px;
     }
-}
+} */
 
 #emprestimo {
     min-height: 381px;
