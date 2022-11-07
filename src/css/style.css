@@ -5,7 +5,7 @@
 
 header {
     color: white;
-    background-image: url("../img/img-inic-pag.png");
+    background-image: url("../img/img-inic-pag.webp");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -55,14 +55,15 @@ img[href*="pergunta"] {
     font-size: 2.5rem !important;
     line-height: 65px;
 }
+.depoimento img {
+    width: 100px;
+    height: 100px;
+}
 @media (min-width: 768px) {
-    
     #content-header {
         height: 88vh;
     }
 }
-
-
 
 #emprestimo {
     min-height: 381px;
